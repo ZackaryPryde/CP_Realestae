@@ -153,7 +153,7 @@ cities_df = data.frame("place" = dat2$place)
 
 # To use the ggmap package, we need to have registered with google cloud services, and have an API key
 
-api = "AIzaSyDMLc_SA4qsAUppE3SHHMNkLahtUknxHn4"
+api = "xxxx"
 register_google(key = api)
 
 locations_df <- mutate_geocode(cities_df, place)
